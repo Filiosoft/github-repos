@@ -1,6 +1,6 @@
 # github-repos
 
-Microservice to cache and expose GitHub projects for [this page](https://filiosoft.net). Built after [zeit/github-repos](https://github.com/zeit/github-repos).
+Microservice to cache and expose GitHub projects for [this page](https://filiosoft.org). Built after [zeit/github-repos](https://github.com/zeit/github-repos).
 
 ## Usage
 
