@@ -62,7 +62,7 @@ app.get('/', function (req, res) {
           500
         )
       }
-      const blacklist = ['dockerfiles', 'polr-mobile']
+      const blacklist = []
 
       const data = data_
         .map(
@@ -73,7 +73,8 @@ app.get('/', function (req, res) {
             fork,
             forks,
             html_url,
-            language
+            language,
+            archived
           }) => ({
             name,
             description,
@@ -81,7 +82,8 @@ app.get('/', function (req, res) {
             stars: stargazers_count,
             forks,
             fork,
-            language
+            language,
+            archived
           })
         )
         .sort((p1, p2) => p2.stars - p1.stars)
