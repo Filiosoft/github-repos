@@ -1,13 +1,13 @@
 {
   "name": "github-repos",
   "version": "1.0.0",
-  "description": "Filiosoft OSS GitHub Repos",
+  "description": "eventOne OSS GitHub Repos",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "sls offline start"
   },
-  "author": "Filiosoft Labs <opensource@filiosoft.com>",
+  "author": "eventOne Labs <opensource@event1.io>",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.4",

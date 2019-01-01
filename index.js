@@ -21,7 +21,7 @@ function logError (res, text, status) {
 const token = process.env.TOKEN
 
 app.get('/', function (req, res) {
-  fetch('https://api.github.com/orgs/Filiosoft/repos?per_page=100', {
+  fetch('https://api.github.com/orgs/eventOneHQ/repos?per_page=100', {
     headers: {
       Accept: 'application/vnd.github.preview',
       Authorization: `token ${token}`

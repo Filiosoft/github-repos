@@ -1,6 +1,6 @@
 # github-repos
 
-Microservice to cache and expose GitHub projects for [this page](https://filiosoft.org). Built after [zeit/github-repos](https://github.com/zeit/github-repos).
+Microservice to cache and expose GitHub projects for [this page](https://geteventone.com/oss). Built after [zeit/github-repos](https://github.com/zeit/github-repos).
 
 ## Usage
 
@@ -33,7 +33,7 @@ npm run dev
   {
     "name": "project-name",
     "description": "The description woot",
-    "url": "https://github.com/filiosoft/test",
+    "url": "https://github.com/eventOneHQ/test",
     "stars": 3040,
     "forks": 0,
     "fork": false
@@ -49,6 +49,6 @@ npm run dev
 
 ## Authors
 
-- Noah Prail ([@noahprail](https://twitter.com/noahprail)) - [Filiosoft](https://filiosoft.com)
+- Noah Prail ([@noahprail](https://twitter.com/noahprail)) - [eventOne](https://geteventone.com)
 
 _Some of the code is adapted from [zeit/github-repos](https://github.com/zeit/github-repos)._
